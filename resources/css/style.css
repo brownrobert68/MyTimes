@@ -64,22 +64,37 @@ a {
 }
 /*End main properties */
 /*Background image properties*/
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+  width: 630px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.stories .text-content {
+    height: 250px;
+}
 .story p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 .image-content {
-  display: flex;
   color: white;
   font-weight: bold;
   font-family: Georgia;
   font-size: 30px;
   height: 300px;
+  text-align: center;
 }
 .lead-story .image-content {
   background-image: url("../images/img-story-main.png");
   font-size: 40px;
+  text-align: left;
 }
 
 .story3.image-content {
